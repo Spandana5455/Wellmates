@@ -1,0 +1,17 @@
+.custom-navbar {
+    margin-left: 50px;
+    height: 80px;
+}
+
+.navbar-logo {
+    height: 70px;
+    width: 70px;
+}
+
+.nav-item {
+    font-size: medium;
+    font-weight: 500;
+    padding-left: 40px;
+    margin-right: -20px;
+}
+

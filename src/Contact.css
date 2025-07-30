@@ -1,0 +1,20 @@
+.contact-heading {
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.contact-text {
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.contact-img{
+    height: 400px;
+    width: 450px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
