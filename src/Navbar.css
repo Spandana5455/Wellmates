@@ -1,5 +1,4 @@
 .custom-navbar {
-    margin-left: 50px;
     height: 80px;
 }
 
@@ -12,6 +11,23 @@
     font-size: medium;
     font-weight: 500;
     padding-left: 40px;
-    margin-right: -20px;
+    margin-right: 0px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 992px) {
+  .custom-navbar {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .navbar-nav {
+    margin-top: 10px;
+  }
+
+  .navbar-logo {
+    height: 50px;
+    width: 50px;
+  }
 }
 

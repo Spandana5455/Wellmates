@@ -59,3 +59,123 @@
     font-weight: 400;
     margin-top: 30px;
 }
+
+
+/* Large screens (1200px and above) */
+@media (min-width: 1200px) {
+  .ourmission-section {
+    height: auto;
+  }
+
+  .radiation-img {
+    margin-left: 100px;
+  }
+}
+
+/* Medium devices (992px to 1199px) */
+@media (max-width: 1199px) {
+  .ourmission-section {
+    height: auto;
+    padding: 30px;
+    margin: 20px;
+  }
+
+  .ourmission-heading {
+    font-size: 50px;
+  }
+
+  .ourmission-text {
+    font-size: 18px;
+  }
+
+  .aboutus-heading {
+    font-size: 50px;
+  }
+
+  .aboutus-text,
+  .aboutus-mobiletext {
+    font-size: 18px;
+  }
+
+  .radiation-img {
+    width: 400px;
+    height: auto;
+    margin-left: 50px;
+  }
+}
+
+/* Tablets (768px to 991px) */
+@media (max-width: 991px) {
+  .ourmission-section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+  }
+
+  .ourmission-heading {
+    font-size: 40px;
+  }
+
+  .aboutus-heading {
+    font-size: 40px;
+  }
+
+  .aboutus-mobileheading,
+  .aboutus-subheading {
+    font-size: 28px;
+  }
+
+  .aboutus-text,
+  .aboutus-mobiletext,
+  .ourmission-text {
+    font-size: 16px;
+  }
+
+  .radiation-img {
+    width: 100%;
+    height: auto;
+    margin: 20px auto 0;
+    display: block;
+  }
+}
+
+/* Phones and small devices (≤767px) */
+@media (max-width: 767px) {
+  .ourmission-section {
+    margin: 15px;
+    padding: 20px 15px;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .ourmission-heading {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .aboutus-heading {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .aboutus-subheading,
+  .aboutus-mobileheading {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .aboutus-text,
+  .aboutus-mobiletext,
+  .ourmission-text {
+    font-size: 15px;
+    text-align: justify;
+    margin: auto;
+  }
+
+  .radiation-img {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 20px;
+  }
+}

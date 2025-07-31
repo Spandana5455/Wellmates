@@ -74,3 +74,128 @@
     background-color: #c6dbde;
 }
   
+
+/* Extra large screens (≥1200px) */
+@media (min-width: 1200px) {
+  .text {
+    padding-right: 700px;
+  }
+}
+
+/* Large screens (992px to 1199px) */
+@media (max-width: 1199px) {
+  .heading,
+  .heading-two {
+    font-size: 52px;
+  }
+
+  .sub-heading {
+    font-size: 28px;
+  }
+
+  .text {
+    padding-right: 400px;
+  }
+
+  .antiradiationchip-heading {
+    font-size: 42px;
+    margin-left: -30px;
+  }
+
+  .antiradiationchip-text {
+    font-size: 18px;
+    margin-left: -30px;
+    margin-right: 20px;
+  }
+
+  .antiradiationchip-img {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+/* Medium screens (768px to 991px) */
+@media (max-width: 991px) {
+  .heading,
+  .heading-two {
+    font-size: 40px;
+  }
+
+  .sub-heading {
+    font-size: 24px;
+  }
+
+  .text {
+    padding-right: 0;
+    font-size: 18px;
+  }
+
+  .antiradiationchip-heading {
+    font-size: 36px;
+    margin-left: 0;
+  }
+
+  .antiradiationchip-text {
+    font-size: 16px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .antiradiationchip-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 60px;
+    margin: 20px auto;
+    display: block;
+  }
+}
+
+/* Small screens (≤767px) */
+@media (max-width: 767px) {
+  .background-section {
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .heading,
+  .heading-two {
+    font-size: 32px;
+  }
+
+  .sub-heading {
+    font-size: 20px;
+  }
+
+  .text {
+    font-size: 16px;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 10px 0;
+  }
+
+  .antiradiationchip-heading {
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .antiradiationchip-text {
+    font-size: 15px;
+    text-align: justify;
+    margin: 10px 0;
+  }
+
+  .antiradiationchip-img {
+    width: 90%;
+    height: auto;
+    border-radius: 40px;
+  }
+
+  .testimonial-section h2 {
+    font-size: 26px;
+  }
+
+  .carousel-item p {
+    font-size: 16px;
+  }
+}

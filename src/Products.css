@@ -34,3 +34,97 @@
     background-color: #F0F3FA;
     border-radius: 20px;
 }
+
+/* Extra large screens (≥1200px) */
+@media (min-width: 1200px) {
+  .product-img {
+    width: 550px;
+    height: 650px;
+  }
+}
+
+/* Large screens (992px–1199px) */
+@media (max-width: 1199px) {
+  .product-heading {
+    font-size: 40px;
+  }
+
+  .product-subheading {
+    font-size: 30px;
+  }
+
+  .product-text {
+    font-size: 18px;
+  }
+
+  .product-img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 40px;
+  }
+}
+
+/* Medium devices (768px–991px) */
+@media (max-width: 991px) {
+  .product-heading {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .product-subheading {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .product-text,
+  .order-heading {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .product-img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+  }
+
+  .order-bg,
+  .order-bg2 {
+    padding: 20px;
+    border-radius: 15px;
+  }
+}
+
+/* Small devices (≤767px) */
+@media (max-width: 767px) {
+  .product-heading {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .product-subheading {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .product-text,
+  .order-heading {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .product-img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 20px;
+  }
+
+  .order-bg,
+  .order-bg2 {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+}

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
-import logo from "./images/logo.jpeg";
+import logo from "./images/logo.png";
 import './Footer.css';
 
 
