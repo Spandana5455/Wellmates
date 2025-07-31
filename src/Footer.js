@@ -20,13 +20,13 @@ const Footer = () => {
         
                 <div className="footer-section1">
                   <p><Link to="/about" className="footer-link">About Us</Link></p>
-                  <p><Link to="/Faqs" className="footer-link">FAQ'S</Link></p>
+                  <p><Link to="/faq" className="footer-link">FAQ'S</Link></p>
                   <p><Link to="/product" className="footer-link">Products</Link></p>
                 </div>
         
                 <div className="footer-section">
                   <p><Link to="/contact" className="footer-link">Contact Us</Link></p>
-                  <p>+91 91370 36623</p>
+                  <p>+91 9912580066</p>
                   <p>Contactwellmates@gmail.com</p>
                 </div>
         
